@@ -1,0 +1,46 @@
+body{
+    margin:0;
+}
+main{
+    margin:0 20;
+}
+h1{
+    text-align:center;
+}
+.navbar ul{
+    list-style-type:none;
+    background-color:hsl(0, 0%, 25%);
+    padding:0;
+    margin:0;
+    overflow:hidden;
+}
+.navbar a{
+    color:white;
+    padding:15px;
+    display:block;
+    text-decoration:none;
+    text-align:center;
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+.navbar li{
+    float:left;
+}
+
+.home{
+    display:inline-block;
+    width:200px;
+    text-align:center;
+    margin:5px;
+    border:1px solid hsl(0, 0%, 60%);
+}
+.home:hover{
+    border:1px solid hsl(0, 0%, 20%);
+
+}
+.home image{
+    width:100%;
+    height:auto;
+    display:block;
+}
